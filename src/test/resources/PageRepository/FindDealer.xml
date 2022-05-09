@@ -1,0 +1,31 @@
+<objects>
+
+    <object name="shoppingTools" >
+        <web locatorType="xpath" locatorValue="//button[contains(text(),'Shopping Tools')]" />
+    </object>
+
+    <object name="findADealer" >
+        <web locatorType="xpath" locatorValue="//li[@class='find-a-dealer']//a[@data-aa-action='aa-link'][contains(text(),'Find a Dealer')]" />
+    </object>
+
+    <object name="searchByZip" >
+        <web locatorType="name" locatorValue="zipcode" />
+    </object>
+
+    <object name="submitButton" >
+        <web locatorType="name" locatorValue="button" />
+    </object>
+
+    <object name="dealerDetails" >
+        <web locatorType="xpath" locatorValue="//a[contains(@href,'/dealers/dealer/42346')][contains(text(),'Dealer Details')]" />
+    </object>
+
+    <object name="textDetails" >
+        <web locatorType="xpath" locatorValue="//div//h1" />
+    </object>
+
+    <object name="dealerWebsite" >
+        <web locatorType="xpath" locatorValue="//a[contains(text(),'Dealer Website')]" />
+    </object>
+
+</objects>
